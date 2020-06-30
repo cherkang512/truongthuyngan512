@@ -1,0 +1,573 @@
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+@font-face{
+	font-family: 'Reey';
+	src: url("../font/Reey-Regular.otf");
+}
+#wrapper{
+	font-family: 'Open Sans';
+	width: 1440px;
+	height: 8000px;
+	background: aqua;
+	margin: 0 auto;
+	color: #3f3f3f;
+}
+/*wrapper*/
+.header{
+	height: 1056px;
+	background: url("../image/Header Background.jpg");
+	position: relative;
+}
+.header .la img{
+	position: absolute;
+	top: 710px;
+	left: 895px;
+	z-index: 5;
+	animation: la;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+@keyframes la{
+	from{top: 710;}
+	to{top: 760px;}
+}
+.header .la-mid img{
+	position: absolute;
+	top: 4090px;
+	right: 20px;
+	z-index: 5;
+	animation: la-mid;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+@keyframes la-mid{
+	from{top: 4090;}
+	to{top: 4140px;}
+}
+.header .la-last img{
+	position: absolute;
+	top: 6190px;
+	left: 0px;
+	z-index: 5;
+	animation: la-last;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+@keyframes la-last{
+	from{top: 6190;}
+	to{top: 6240px;}
+}
+.menu{
+	width: 869px;
+	height: 95px;
+/*	background: red;*/
+	float: right;
+	
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+	margin-left: 60px;
+	line-height: 140px;
+}
+.menu ul li a{
+	letter-spacing: 2px;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+.search input{
+	width: 186px;
+	height: 52px;
+	background: white;
+	border-radius: 50px;
+	position: absolute;
+	top: 45px;
+	border: none;
+	left: 1220px;
+}
+.search img{
+	position: absolute;
+	top: 55px;
+	left: 1360px;
+}
+/*menu*/
+.banner{
+	height: 961px;
+/*	background: blue;*/
+	padding-top: 95px;
+}
+.banner-left{
+	width: 680px;
+	height: 618px;
+/*	background: pink;*/
+	float: left;
+}
+.logo{
+	margin-top: 100px;
+	margin-left: 104px;
+}
+.banner-left h1{
+	height: 174px;
+/*	background: white;*/
+	font-family: 'Reey';
+	font-size: 91.67px;
+	font-weight: normal;
+	line-height: 240px;
+	margin-left: 115px;
+	color:white;
+}
+
+.banner-left .title-bl{
+	line-height: 110px;
+	margin-left: 99px;
+	color: white;
+	font-weight: bold;
+	letter-spacing: 3px;
+	font-style: italic;
+	font-size: 25px;
+	margin-top: 50px;
+}
+.banner-left button{
+	margin-top:30px;
+	background: white;
+	width: 219px;
+	height: 47px;
+	font-size: 25px;
+	font-weight: bold;
+	color: black;
+	line-height: 47px;
+	margin-left: 99px;
+	text-align: center;
+	border-radius: 20px;
+	border:none;
+}
+.banner-left .info-bl{
+	margin-top: 26px;
+	margin-left: 99px;
+	width: 482px;
+	height: 75px;
+	color: white;
+	letter-spacing: 2px;
+	font-style: italic;
+}
+/*banner left*/
+.banner-right{
+	width: 760px;
+	float: right;
+	position: relative;
+}
+.banner-right .pasta{
+	margin-left: 78px;
+	padding-top: 167px;
+}
+.banner-right .sauce{
+	position: absolute;
+	right: 538px;
+	top: 640px;
+}
+/*banner-right*/
+.content{
+	height: 5967px;
+	background: white;
+}
+.best-signature-dishes{
+	height: 1116px;
+/*	background: blue;*/
+}
+.best-signature-dishes h1{
+	height: 197px;
+	text-align: center;
+	font-family: 'Reey';
+	font-weight: normal;
+	color: black;
+	font-size: 75px;
+	line-height: 250px;
+}
+.content .best-signature-dishes p{
+	text-align: center;
+	font-size: 27px;
+	width: 710px;
+	margin-left: 358px;
+	margin-top: 64px;
+}
+.bsd{
+	width: 1260px;
+	height: 528px;
+/*	background: red;*/
+	margin-left: 114px;
+	margin-top: 78px;
+}
+.best-signature-dishes .bsd .box{
+	width: 376px;
+	height: 360px;
+	float: left;
+/*	background: pink;*/
+	margin-right: 42px;
+}
+.best-signature-dishes .bsd .title-bsd p{
+	width: 386px;
+	height: 50px;
+	float: left;
+/*	background: blue;*/
+	margin-left: 32px;
+	font-size: 29px;
+	font-weight: bold;
+	text-align: left;
+	margin-top: inherit;
+}
+.best-signature-dishes .bsd .info-bsd p{
+	width: 386px;
+	height: 50px;
+	float: left;
+/*	background: blue;*/
+	margin-left: 32px;
+	font-size: 23px;
+	text-align: left;
+	margin-top: inherit;
+}
+.best-signature-dishes button{
+	width: 336px;
+	height: 78px;
+	background: black;
+	font-size: 25px;
+	font-weight: bold;
+	color: white;
+	line-height: 78px;
+	text-align: center;
+	border-radius: 250px;
+	margin-left: 541px;
+	margin-top: 20px;
+	border:none;
+}
+/*best signature dishes*/
+.content .our-story-behind {
+	height: 560px;
+	width: 1440px;
+	background: #27292c;
+}
+.content .our-story-behind h1{
+	font-family: 'Reey';
+	color: white;
+	font-size: 75px;
+	text-align: center;
+	font-weight: normal;
+	line-height: 250px;
+}
+.content .our-story-behind .text{
+	width: 1440px;
+	height: 108px;
+}
+.content .our-story-behind .text .left{
+	width: 501px;
+	height: 101px;
+	color: white;
+	float: left;
+	margin-left: 185px;
+}
+.content .our-story-behind .text .right{
+	width: 501px;
+	height: 101px;
+	color: white;
+	float: right;
+	margin-right: 185px;
+}
+.our-story-behind button{
+	width: 274px;
+	height: 78px;
+	background: white;
+	font-size: 25px;
+	font-weight: bold;
+	color: black;
+	line-height: 78px;
+	text-align: center;
+	border-radius: 35px;
+	margin-left: 541px;
+	margin-top: 50px;
+}
+/*our story behind*/
+.promo{
+	width: 1440px;
+	height: 1516px;
+/*	background: blue;*/
+	padding-top: 20px;
+}
+.promo .discount{
+	width: 1440px;
+	height: 705px;
+/*	background: red;*/
+	margin-top: 30px;
+}
+.promo .discount-left{
+	float: left;
+	width: 766px;
+/*	background: pink;*/
+}
+.promo .discount-right{
+	float: right;
+	width: 674px;
+	height: 705px;
+/*	background: yellow;*/
+}
+.promo .discount-right h1{
+	font-size: 58.33px;
+	margin-top:114px;
+}
+.promo .discount-right p{
+	font-size: 24px;
+	width: 525px;
+	margin-top: 20px;
+/*	background: white;*/
+}
+.promo .discount-right button{
+	width: 336px;
+	height: 78px;
+	background: #27292c;
+	font-size: 25px;
+	font-weight: bold;
+	color: white;
+	line-height: 78px;
+	text-align: center;
+	border-radius: 250px;
+	margin-top: 50px;
+}
+/*discount*/
+.jan{
+	height:733px;
+/*	background: red;*/
+}
+.jan-left{
+	width: 576px;
+	background: white;
+	float: left;
+	margin-left: 124px;
+}
+.jan-left h2{
+	font-size: 58.33px;
+	margin-top:114px;
+}
+.jan-text{
+	font-size: 24px;
+	width: 525px;
+	margin-top: 20px;
+}
+.jan-left button{
+	width: 336px;
+	height: 78px;
+	background: #27292c;
+	font-size: 25px;
+	font-weight: bold;
+	color: white;
+	line-height: 78px;
+	text-align: center;
+	border-radius: 250px;
+	margin-top: 50px;
+}
+.jan-right{
+	float: right;
+}
+/*promo*/
+.tsiqi{
+	width: 1440px;
+	height: 1975px;
+/*	background: pink;*/
+	text-align: center;
+}
+.top{
+	color:white;
+	width: 1440px;
+	height: 1082px;
+	background: url("../image/tsiqi background.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.top img{
+	position: relative;
+	top: 15px;
+	left: 130px;
+}
+.top .top-title{
+/*	background: blue;*/
+	color: white;
+	font-family: 'Reey';
+	font-weight: normal;
+	text-align: center;
+	font-size: 59px;
+	margin-top: 5px;
+	padding-top: 120px;
+}
+.top .top-text{
+	margin-top: 70px;
+	font-size: 25px;
+}
+.top hr{
+	width: 165px;
+	height: 8px;
+	background: white;
+	margin-left: 612px;
+	margin-top: 44px;
+}
+/*top*/
+.bot{
+	width: 1440px;
+	height: 894px;
+/*	background: red;*/
+}
+.bot .bot-info{
+	width: 1240px;
+	height: 182px;
+/*	background: yellow;*/
+	padding-top: 168px;
+	padding-left: 190px;
+	float: center;
+}
+.bot-title {
+	float: left;
+	width: 338px;
+	height: 90px;
+	font-size:41.67px;
+	font-family: 'Reey';
+	margin-right: 39px;
+	text-align: center;
+}
+.bot-text{
+	height: 86px;
+	float: left;
+	width: 338px;
+	text-align: left;
+	font-size: 18px;
+	margin-right: 39px;
+}
+.sign-text{
+	margin-top: 180px;
+	font-size: 25px;
+	text-align: center;
+}
+.sign-title{
+	margin-top: 61px;
+	font-size: 20.83;
+	font-weight: bold;
+}
+/*the secret is quality ingredients*/
+.get-in-touch{
+	height: 804px;
+	width: 1440px;
+	background: #27292c;
+	color:white;
+	position: relative;
+}
+.git-title{
+	font-size: 75px;
+	font-weight: bold;
+	padding-top: 213px;
+}
+.git-text{
+	margin-top: 56px;
+	font-size: 30px;
+}
+.email input{
+	width: 608px;
+	height: 64px;
+	border-radius: 65px;
+	border:none;
+	position: absolute;
+	top: 530px;
+	left: 330px;
+	font-size: 25px;
+	color: #B0B0B0;
+	text-indent: 40px;
+}
+.email{
+	padding-left: 40px;
+}
+/*
+.enter placeholder{
+	margin-left: 30px;
+	font-size: 25px;
+}
+*/
+.sub input{
+	width: 226px;
+	height: 64px;
+	border-radius: 65px;
+	border:none;
+	top: 530px;
+	position: absolute;
+	left: 860px;
+	background: #54524f;
+	color: white;
+	font-size: 25px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-align: center;
+}
+/*get in touch*/
+/*content*/
+.footer{
+	height: 978px;
+	width: 1440px;
+	background: white;
+}
+.left-ft{
+	width: 547px;
+/*	background: pink;*/
+	height: 978px;
+	float:left;
+}
+.left-title{
+	width: 547px;
+	font-size: 32px;
+	letter-spacing: 4px;
+	padding-top: 336px;
+	padding-left: 76px;
+}
+.left-text{
+	padding-left: 76px;
+	width: 450px;
+	font-size: 23.7px;
+	letter-spacing: 0px;
+	padding-top: 30px;
+}
+.icon{
+	padding-left: 76px;
+	padding-top: 30px;
+}
+.icon img{
+	margin-right: 20px;
+}
+/*left*/
+.right-ft{
+/*	background: blue;*/
+	float: right;
+	width: 893px;
+	height: 978px;
+}
+.ft{
+	float: left;
+	margin-right: 30px;
+/*	margin-top: 50px;*/
+}
+.all{
+	margin-left: 115px;
+	margin-top: 336px;
+}
+.all ul li{
+	list-style: none;
+	margin-left: 30px;
+}
+.all ul li h3{
+	font-size: 32px;
+	font-weight: lighter;
+}
+.all ul li a{
+	color: black;
+	text-decoration: none;
+	font-size: 23.7px;
+	font-weight: lighter;
+	letter-spacing: 1px;
+	line-height: 48px;
+}
